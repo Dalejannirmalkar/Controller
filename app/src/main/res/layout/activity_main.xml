@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="app.nirmlkar.dalejan.controller.MainActivity"
+    android:background="@drawable/background">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <Button style="@style/btstyle"
+        android:id="@+id/start"
+        android:text="Start"/>
+
+    <Button style="@style/btstyle"
+        android:text="Stop"
+        android:id="@+id/stop"
+        android:layout_marginTop="60dp"/>
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
